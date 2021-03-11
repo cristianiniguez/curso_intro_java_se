@@ -10,5 +10,17 @@ public class DataTypes {
         // decimales (de punto flotante)
         double nD = 123.4567890;
         double nF = 123.4567890f;
+
+        // usando var
+        var salary = 1000; // int
+        var pension = salary * 0.03; // double
+        var totalSalary = salary - pension; // double
+
+        System.out.println(salary); // 1000
+        System.out.println(pension); // 30.0
+        System.out.println(totalSalary); // double
+
+        var employee = "Cristian Iñiguez"; // String
+        System.out.println("EMPLOYEE: " + employee + " SALARY: " + totalSalary);
     }
 }
